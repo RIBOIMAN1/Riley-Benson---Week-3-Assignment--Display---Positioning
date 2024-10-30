@@ -7,58 +7,51 @@
 */
 
 body {
-	font-size: 16px;
-	font-family: 'Sanchez', serif;
-	background-color: white;
-}
-
+	font-size: 16px; 
+	font-family: 'Sanchez', serif; 
+	background-color: white; 
+} /* Basic body styling, using 16px font size, the "Sanchez" and "Serif" font families, and a white background color */
+  
 h1 {
-	padding-left: 20px;
-}
-
+	padding-left: 20px; 
+} /* Adds a 20px left padding to h1 elements */
+  
 h1, h2, h3 {
-	font-family: 'Rakkas', cursive;
-}
-
+	font-family: 'Rakkas', cursive; 
+} /* Sets the font family for h1, h2, and h3 elements to "Rakkas" and "Cursive"*/
+  
 aside {
 	width: 260px;
-    float: left;
+	float: left;
 	padding-top: 40px;
-}
-
+} /* Styles the aside element with a 260px width, a left float, and a top padding of 40px */
+  
 footer {
-    clear: both;
-    padding: 5px 0;
-    position: relative;
-    width: 100%;
-}
-
-header {
-
-}
-
+	clear: both;
+	padding: 5px 0;
+	position: relative;
+	width: 100%;
+} /* Clears floats and styles the footer with a padding of 5px 0, relative positioning, and width */
+  
 img {
-	max-width: 75%;
-}
-
+	max-width: 75%; 
+} /* Sets the maximum width for images to 75% */
+  
 main {
-    width: 560px;
-    float: left;
+	width: 560px;
+	float: left;
 	padding-top: 40px;
 	padding-right: 20px;
-}
-
+} /* Styles the main element with a width of 560px, a left float, a 40px top padding, and a 20px right padding */
+  
 nav {
 	width: 120px;
-    float: left;
+	float: left;
 	padding-left: 20px;
 	padding-top: 40px;
 	padding-right: 20px;
-}
-
+} /* Styles the nav element with a 120px width, a left float, and padding (20px left, 40px top, and 20px right) */
+  
 #copyright {
-	font-size: 80%;
-}
-
-#main-container {
-}
+	font-size: 80%; 
+} /* Sets a smaller font size (80%) for the copyright element */  
